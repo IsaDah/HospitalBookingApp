@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Hospital Appointment App</string>
+
+    <string-array name="departments">
+        <item>Cardiology</item>
+        <item>Chaplaincy</item>
+        <item>Dental</item>
+        <item>Elderly services</item>
+        <item>Gastroenterology</item>
+        <item>General Surgery</item>
+        <item>Gynecology</item>
+        <item>Haematology</item>
+        <item>Maternity</item>
+        <item>Neurology</item>
+        <item>Nutrition and Dietetics</item>
+        <item>Occupational Therapy</item>
+        <item>Oncology</item>
+        <item>Ophthalmology</item>
+        <item>Orthopaedics</item>
+        <item>Otolaryngology (Ear, Nose, and Throat)</item>
+        <item>Psychotherapy</item>
+        <item>Physiotherapy</item>
+        <item>Urology</item>
+    </string-array>
+
+    <string-array name="doctors">
+        <item>Doctor1</item>
+        <item>Doctor2</item>
+        <item>Doctor3</item>
+    </string-array>
+
+    <string-array name="times">
+        <item>9:00AM</item>
+        <item>9:15AM</item>
+        <item>9:30AM</item>
+        <item>9:45AM</item>
+        <item>10:00AM</item>
+        <item>10:15AM</item>
+        <item>10:30AM</item>
+        <item>10:45AM</item>
+        <item>11:00AM</item>
+        <item>11:15AM</item>
+        <item>11:30AM</item>
+        <item>11:45AM</item>
+        <item>5:00PM</item>
+        <item>5:15PM</item>
+        <item>5:30PM</item>
+        <item>5:45PM</item>
+        <item>6:00PM</item>
+        <item>6:15PM</item>
+        <item>6:30PM</item>
+        <item>6:45PM</item>
+        <item>7:00PM</item>
+        <item>7:15PM</item>
+        <item>7:30PM</item>
+        <item>7:45PM</item>
+        <item>8:00PM</item>
+        <item>8:15PM</item>
+        <item>8:30PM</item>
+        <item>8:45PM</item>
+    </string-array>
+
+</resources>

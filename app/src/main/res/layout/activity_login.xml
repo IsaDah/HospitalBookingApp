@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="#dcdcdc">
+
+    <ScrollView android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation = "vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:text="Enter Phone number: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/edit_text_phone_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:inputType="number"/>
+
+            <TextView
+                android:text="Enter Password: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/edit_text_password_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:singleLine="true"/>
+
+            <Button
+                android:id="@+id/button_login_enter_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="20dp"
+                android:text="Login"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:background="#008577"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
